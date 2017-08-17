@@ -1,0 +1,9 @@
+This project includes an IPython notebook for analysing UK planning application data using PySpark.
+
+The data were obtained in JSON format from Northumberland Council at http://opendata.northumberland.gov.uk/static/datasets/planning-applications-weekly-list/planning-applications-weekly-list.json. For further information on the dataset, please refer to http://data.gov.uk/dataset/planning-applications-northumberland.
+
+Package requirements: pyspark, findspark
+
+Configuration guidance: Prior to invoking Jupyter notebook, ensure that the SPARK_HOME environment variable points to PySpark installation path.
+
+The code was developed and tested using pyspark 2.2.0, findspark 1.1.0 and Python 2.7.13 on a Thinkpad X250 laptop with 4GB RAM.
